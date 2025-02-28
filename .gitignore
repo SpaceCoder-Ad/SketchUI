@@ -1,0 +1,11 @@
+# Ignore a specific file
+.idea/
+library/
+bin/
+examples/
+ui.md
+Bug.md
+sketchConstant.md
+Feature.md
+buttonType.md
+library.properties
