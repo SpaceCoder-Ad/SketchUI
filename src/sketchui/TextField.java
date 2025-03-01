@@ -200,6 +200,7 @@ public class TextField {
 
         isActive = false;
         suggestion = false;
+        textFieldAction(this::nothing);
     }
 
     public void textFieldAction(Runnable action) {
@@ -280,5 +281,7 @@ public class TextField {
     public void runAction() {
         action.run();
     }
+    public void nothing() {}
+
 
 }
