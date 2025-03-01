@@ -235,6 +235,9 @@ public class TextField {
         }
     }
 
+    public boolean isActive() {
+        return isActive;
+    }
     public void keyEvent() {
         if (parent.key == PApplet.ENTER) {
             try {
